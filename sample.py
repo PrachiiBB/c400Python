@@ -25,7 +25,8 @@ with requests.Session() as s:
 print(f"Total Number of Records: {a}\n")
 print(f"Unique Boroughs: {b}\n")
 print(f"Number of Records for Brooklyn Borough: {c}\n")
-with open('/root/taxi_zone_output.txt', 'w') as f:
+
+with open('taxi_zone_output.txt', 'w') as f:
     f.write(f"Total Number of Records: {a}\n")
     f.write(f"Unique Boroughs: {b}\n")
     f.write(f"Number of Records for Brooklyn Borough: {c}\n")
